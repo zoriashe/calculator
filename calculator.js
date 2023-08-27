@@ -12,7 +12,7 @@ const promptForData = () => {
   rl.question('Введите первое число: ', firstNumber => {
     calculateData.firstNumber = firstNumber;
 
-    rl.question('Ввведите оператор: ', operator => {
+    rl.question('Ввведите оператор(+, -, *, /): ', operator => {
       calculateData.operator = operator;
 
       rl.question('Введите второе число: ', secondNumber => {
